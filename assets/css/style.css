@@ -1,0 +1,106 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 56px;
+    background-color: #010101;
+    padding: 0;
+    margin: 0;
+}
+
+
+.fixed-top.scrolled {
+    background-color: #0dcaf0 !important;
+    transition: background-color 200ms linear;
+}
+
+.col1, .col2, .col3 {
+    text-align: justify;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 70px;
+}
+
+
+.icon1 {
+text-align: center;
+color: white;
+background-color: #328998;
+margin-bottom: 10px;
+}
+
+.icon2 {
+    text-align: center;
+    color: white;
+    background-color: #328998;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.custom-card {
+        background-color: #35bcd3;
+        border-color: #898989;
+        width: 100%;
+        margin: 10px;
+}
+    
+.card-img-top {
+        height: 150px;
+        width: 100%;
+        object-fit: cover;
+}
+
+.card-text {
+        font-size: 0.9rem;
+        color: #777;
+}
+
+
+footer {
+        background-color: #35bcd3;
+        color: #fff;
+        padding: 2rem 0;
+}
+    
+footer a {
+        color: #ffffff;
+}
+    
+footer a:hover {
+        color: #fff;
+}
+    
+.footer-content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+}
+    
+.company-name {
+        text-align: left;
+}
+    
+.social-links ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: flex-end;
+}
+    
+.social-links li a {
+        display: inline-block;
+        margin: 0 0.5rem;
+        font-size: 1.2rem;
+        transition: transform 0.2s ease;
+}
+    
+.social-links li a:hover {
+        transform: translateY(-2px);
+    }
+    
+
+
